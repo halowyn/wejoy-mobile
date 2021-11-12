@@ -65,15 +65,14 @@ export default {
       changeActive,
       confirm,
       cancel,
-      activeValue,
-      props
+      activeValue
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 .menu-popup-wrapper {
   padding-bottom: 30px;
 }
@@ -92,13 +91,13 @@ export default {
 }
 .menu-wrapper {
   margin: 0 30px 20px;
-}
-.menu-title {
+  .menu-title {
     font-size: 28px;
     font-family: PingFangSC-Semibold, PingFang SC;
     font-weight: 600;
     color: #333333;
     margin-bottom: 20px;
+    text-align: left;
   }
   .van-button {
     min-width: 200px;
@@ -133,4 +132,6 @@ export default {
     border: none;
     font-weight: 400;
   }
+}
+
 </style>

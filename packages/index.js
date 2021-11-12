@@ -1,5 +1,6 @@
 import MenuPicker from './MenuPicker.vue'
-const components = [MenuPicker]
+import ButtonGroup from './ButtonGroup.vue'
+const components = [MenuPicker, ButtonGroup]
 const install = function(app) {
   components.forEach(item => {
     app.component(item.name, item)
