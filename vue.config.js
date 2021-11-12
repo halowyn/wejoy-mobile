@@ -18,10 +18,10 @@ module.exports = {
       return options
     })
   },
-  // configureWebpack: {
-  //   externals: { // 不打包插件
-  //     vue: 'Vue',
-  //     vant: 'vant'
-  //   }
-  // }
+  configureWebpack: {
+    externals: { // 不打包插件
+      // vue: 'Vue',
+      vant: 'vant'
+    }
+  }
 }

@@ -1,7 +1,6 @@
 <template>
   <button-group :btns="btnArr" :default="defaultBtn" @change="changeBtn"></button-group>
   <van-button type="primary" style="margin: 20px" @click="showMenuPicker">menu-picker</van-button>
-
   <menu-picker :menus="menus" :visible="menuVisible" @closePicker="closePicker"></menu-picker>
 </template>
 

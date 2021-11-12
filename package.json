@@ -2,6 +2,10 @@
   "name": "wejoy-mobile",
   "version": "0.1.0",
   "private": false,
+  "author": {
+    "name": "wangyanan"
+  },
+  "main": "dist/wejoy-mobile.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
